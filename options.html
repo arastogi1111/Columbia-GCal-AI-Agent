@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columbia SSOL GCal AI Agent Options</title>
+    <link rel="stylesheet" href="style/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 10px;
+        }
+        #saveButton {
+            text-transform: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+      <div class="nav-wrapper black">
+          <a class="brand-logo center">⚙ Settings</a>
+      </div>
+    </nav>  
+    <div class="container">
+        <div class="valign-wrapper">
+            <i class="small material-icons">help</i>
+            <span style="font-size: 18px;"><b>Instructions</b>:</span>
+        </div>
+        <ul class="collection">
+        <div class="row">
+            <div class="col s12"><br>
+                <p class="flow-text" style="font-size: 15px;">To use Columbia SSOL GCal AI Agent, you will need an API key for the selected model.</p>
+                <p class="flow-text" style="font-size: 15px;"> • For obtaining the API key for OpenAI models, see <a href="https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key" target="_blank">these instructions</a>.</p>
+                <p class="flow-text" style="font-size: 15px;"> • For obtaining the API key for Gemini models, see <a href="https://ai.google.dev/gemini-api/docs/api-key" target="_blank">these instructions</a>.</p>
+            </div>
+        </div>
+        </ul>
+
+        <div class="valign-wrapper">
+            <i class="small material-icons">memory</i>
+            <span style="font-size: 18px;"><b>AI Model</b>:</span>
+        </div>        
+        <ul class="collection">
+        <form id="configuration-form">
+            <div class="row">
+                <div class="blue-select input-field col s12">
+                    <select id="model-select">
+                        <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+                        <option value="gpt-4o-mini">GPT-4o Mini</option>
+                        <option value="gpt-4o">GPT-4o</option>
+                        <option value="gemini-pro">Gemini 1.0 Pro</option>
+                        <option value="gemini-1.5-flash-latest">Gemini 1.5 Flash</option>
+                    </select>
+                    <label>AI Model to be used:</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="" id="api-key-input" type="text" class="validate">
+                    <label for="api-key-input">API Key</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center-align">
+                    <button id="saveButton" class="btn waves-effect waves-light black" type="submit">💾 Save</button>
+                </div>
+            </div>
+        </form>
+        </ul>
+    </div>
+
+    <script src="style/materialize.min.js"></script>
+    <script src="options.js" type="module"></script>
+</body>
+</html>

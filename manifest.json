@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Columbia SSOL GCal AI Agent",
+  "version": "1.1",
+  "background": {
+    "service_worker": "service_worker.js",
+    "type": "module"
+  },
+  "minimum_chrome_version": "92",
+  "description": "Columbia SSOL GCal AI Agent: quickly create Google calendar events by selecting details and clicking a button.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "contextMenus",
+    "scripting",
+    "notifications",
+    "downloads"
+  ],
+  "options_page": "options.html",
+  "action": {
+    "default_title": "Columbia SSOL GCal AI Agent",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "64": "icons/64.png"
+  }
+}
