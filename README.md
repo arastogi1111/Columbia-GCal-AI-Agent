@@ -6,8 +6,7 @@ Columbia-GCal-SSOL-AI-Agent is a chrome extension that allows you to add courses
 ### Did you know that you can just go sit in any class you want at Columbia, for FREE?
 Use this extension to load up some classes you wish to attend.
 
-![Demo](https://github.com/user-attachments/assets/ec3c603f-724f-4816-8977-7614e2444bbd)
-
+![ezgif-3-8731acb0b8](https://github.com/user-attachments/assets/b541979f-cf94-4543-a585-b3d2d208267b)
 
 ## Installation
 
@@ -41,7 +40,8 @@ To install the extension:
 6. Just check whether you want it to repeat every week (by default yes, on the days of the classes).
 7. Press Save. Done!
 
-![ezgif-3-8731acb0b8](https://github.com/user-attachments/assets/3fa47917-89a0-47c6-a67e-d7fb05ba3c53)
+![ezgif-2-bf3f440117](https://github.com/user-attachments/assets/40f96f87-bba6-4baa-8887-dfd742cc51fd)
+
 
 
 # Usage (General)
@@ -49,4 +49,4 @@ To install the extension:
 2. Right click, select "Create Google Calendar Event"
 3. Voila! It is now converted to an actual GCal event.
 
-![ezgif-5-82af360bd3](https://github.com/user-attachments/assets/4818dc83-95cf-4b91-af5d-36369776714d)
+![ezgif-5-82af360bd3](https://github.com/user-attachments/assets/ed1f410a-6268-4350-9588-9f7e731bd992)
