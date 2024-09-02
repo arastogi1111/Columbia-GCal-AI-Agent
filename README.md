@@ -1,6 +1,6 @@
-# Columbia-GCal-SSOL-AI-Agent
+# Columbia-GCal-AI-Agent
 
-Columbia-GCal-SSOL-AI-Agent is a chrome extension that allows you to add courses in your SSOL wishlist as events to Google Calendar. 
+Columbia-GCal-AI-Agent is a chrome extension that allows you to add courses in your SSOL wishlist as events to Google Calendar. 
 **This tool can also function easily for converting ANY text that has an Event to a Google calendar event.**
 
 ### Did you know that you can just go sit in any class you want at Columbia, for FREE?
