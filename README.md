@@ -8,7 +8,7 @@
 
 It is finetuned to add courses in your Columbia SSOL/Vergil wishlist as events to Google Calendar. 🤤
 
-You Don't need to be registered in any courses.
+You Don't need to be registered in any courses. **You just need an OpenAI API Key.**
 
 # 
 ![ezgif-3-8731acb0b8](https://github.com/user-attachments/assets/b541979f-cf94-4543-a585-b3d2d208267b)
