@@ -2,11 +2,13 @@
 
 ![64](https://github.com/user-attachments/assets/3414dc95-3158-443f-8bf0-f6bc2e2409f9)
 
-Columbia-GCal-AI-Agent is a chrome extension that allows you to add courses in your SSOL wishlist as events to Google Calendar. 🤤
-
-### **This tool can also convert ANY text  👑  that has an Event to a Google calendar event.** 
 
 
+### **Columbia-GCal-AI-Agent is a chrome extension that can convert ANY text  👑  that has an Event to a Google calendar event.** 
+
+It is finetuned to add courses in your SSOL/Vergil wishlist as events to Google Calendar. 🤤
+
+You Don't need to be registered in any courses.
 
 # 
 ![ezgif-3-8731acb0b8](https://github.com/user-attachments/assets/b541979f-cf94-4543-a585-b3d2d208267b)
